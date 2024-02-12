@@ -1,0 +1,152 @@
+html {
+  background-color: #3a2d21;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+
+  nav {
+    box-shadow: 0 0 12px -2px black;
+    position: fixed;
+    left: 0;
+    right: 0;
+    align-items: center;
+    background-color: #333333;
+    color: aliceblue;
+    display: flex;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  body {
+    background-color: #c0a321;
+    box-shadow: 0 0 12px -2px black;
+    padding: 0;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  a {
+    color: rgb(0, 255, 13);
+    text-decoration: none;
+    font-size: x-large;
+    margin: 0 5px;
+  }
+
+  main {
+    min-height: 100vh;
+    padding: 85px 24px 95px;
+    box-shadow: 0 0 12px -2px black;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+  }
+
+  main > img {
+    float: right;
+    margin: 10px 10px 10px 10px;
+  }
+
+  main .quote {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 100;
+    text-shadow: 1px 1px 2px black;
+    align-items: center;
+    position: relative;
+    right: 0;
+    left: 0;
+    top: 0px;
+    bottom: 0;
+    margin: auto;
+  }
+
+  .about-section {
+    margin: auto;
+  }
+
+
+  .about-section > p {
+    text-align: justify;
+    margin: auto;
+    font-size: 22px;
+
+  }
+
+  .about-business > img {
+    height: 200px; 
+    width: 270px; 
+    float: right;
+    margin: 0 24px 24px 24px;
+  }
+
+  .about-business > p {
+    text-align: justify;
+    margin: auto;
+    font-size: 22px;
+  }
+
+  .about-business {
+    margin: 150px, auto;
+    width: 100%;
+  }
+
+  .season-one {
+    background-color: rgb(1, 255, 35);
+    color: black;
+    margin: 150px, auto;
+    width: 100%;
+  }
+
+  .season-one > img {
+    height: 202.13px; 
+    width: 200px;
+    float: right;
+
+  }
+
+  .season-one > p {
+    font-size: 22px;
+    color: blue;
+  }
+
+  .season-two {
+    background-color: rgb(1, 255, 35);
+    color: black;
+    margin: 150px, auto;
+    width: 100%;
+  }
+
+  .season-two > p {
+    font-size: 22px;
+    color: blue;
+  }
+
+  .season-two > img {
+    height: 232.13px; 
+    width: 200px;
+    float: right;
+  }
+
+  .season-four {
+    background-color: rgb(1, 255, 35);
+    color: black;
+    margin: 150px, auto;
+    width: 100%;
+  }
+  .season-four > p {
+    font-size: 22px;
+    color: rgb(255, 0, 0);
+  }
+
+  .season-four > img {
+    height: 232.13px; 
+    width: 200px;
+    float: right;
+  }
