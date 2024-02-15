@@ -36,13 +36,15 @@ html {
   }
 
   main {
-    min-height: 100vh;
+    min-height: 100%;
     padding: 85px 24px 95px;
     box-shadow: 0 0 12px -2px black;
     color: aliceblue;
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
   }
+
+
 
   main > img {
     float: right;
@@ -65,6 +67,10 @@ html {
     top: 0px;
     bottom: 0;
     margin: auto;
+  }
+
+  main .quote:hover{
+    font-size: 250%;
   }
 
   .about-section {
@@ -104,6 +110,10 @@ html {
     width: 100%;
   }
 
+  .season-one:hover {
+    background-color: orange;
+  }
+
   .season-one > img {
     height: 202.13px; 
     width: 200px;
@@ -123,6 +133,10 @@ html {
     width: 100%;
   }
 
+  .season-two:hover {
+    background-color: orange;
+  }
+
   .season-two > p {
     font-size: 22px;
     color: blue;
@@ -140,6 +154,11 @@ html {
     margin: 150px, auto;
     width: 100%;
   }
+
+  .season-four:hover {
+    background-color: blue;
+  }
+
   .season-four > p {
     font-size: 22px;
     color: rgb(255, 0, 0);
@@ -149,4 +168,17 @@ html {
     height: 232.13px; 
     width: 200px;
     float: right;
+  }
+
+  .content {
+    max-width: 600px;
+    margin: auto;
+
+  }
+
+  .contact {
+    top: 100px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
   }
